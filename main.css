@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif,monospace !important;
+}
+
+/* birinchi sahifa */
+header{
+    width: 100%;
+    height: 615px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./img/8aff3c3977dd7eccbdce055e5588a44a.jpg");    background-repeat: no-repeat;
+    background-size: cover;
+}
+header i{
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 70px;
+    color: rgba(117, 110, 110, 0.664);
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-top: 6px;
+    padding-left: 5px;
+    
+}
+.icon{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    font-family: monospace;
+    letter-spacing: 5px;
+
+}
+.boatwight{
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 15px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-weight: bold;
+
+
+}
+.your{
+    color: white;
+    font-size: 22px;
+    margin-top: 90px;
+    margin-left: 60px;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
+.want{
+    color: white;
+    font-size: 50px;
+    margin-left: 60px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    line-height: 60px;
+    font-family: monospace;
+}
+.contact{
+    display: inline-block;
+    border: solid 1px white;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 250px;
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+/* ikkinchi sahifa */
+.ikkinchi{
+    width: 100%;
+    height: 615px;
+    background-color: #453F35;   
+}
+.write{
+    color: white;
+    text-align: center;
+    width: 70%;
+    padding-top: 120px;
+    margin-left: 200px;
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 25px;
+}
+.writea{
+    color: white;
+    text-align: center;
+    width: 70%;
+    padding-top: 40px;
+    margin-left: 200px;
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 25px;
+}
+.consult{
+    display: inline-block;
+    border: solid 1px white;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 230px;
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-size: 18px;
+    margin-left: 530px;
+    margin-top: 100px;   
+}
+/* uchinchi sahifa */
+.uchinchi{
+    width: 100%;
+    height: 615px;
+    background-color: #F8F6F1; 
+    
+}
+.uchinchi p{
+    color: #453F35;
+    font-family: monospace;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 70px;
+    text-transform: uppercase;
+}
+.rasm{
+    width: 80%;
+    height: 440px;
+    padding-left: 60px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+.rasm1{
+    width: 28%;
+    height: 60%;
+    display: inline-block;
+}
+.rasm11{
+    width: 100%;
+    height: 250px;
+    background-image: url("./img/sahifa3.1\ \(2\).jpg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 100% 250px;
+    background-position: center top;
+    border: solid 4px white;
+    border-radius: 25px;
+
+}
+.rasm1 span{
+    font-size: 18px;
+    color: #453F35;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.rasm2{
+    width: 28%;
+    height: 60%;
+    display: inline-block;
+    margin-left: 50px;
+
+
+}
+.rasm12{
+    width: 100%;
+    height: 250px;
+    background-image: url("./img/sahifa3.2.webp");
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 25px;
+    background-size: 100% 250px;
+    background-position: center top;
+    border: solid 4px white;
+}
+.rasm2 span{
+    font-size: 18px;
+    color: #453F35;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+.rasm3{
+    width: 28%;
+    height: 60%;
+    display: inline-block;
+    /* background-color: aquamarine; */
+    margin-left: 50px;
+
+}
+.rasm3 span{
+    font-size: 18px;
+    color: #453F35;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+.rasm13{
+    width: 100%;
+    height: 250px;
+    background-image: url("./img/sahifa3.3.jpg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 100% 250px;
+    background-position: center top;
+    border: solid 4px white;
+    border-radius: 25px;
+
+}
+/* to'rtinchi sahifa */
+.tort{
+    width: 100%;
+    height: 615px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./img/sahifa4.1.avif");    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.exp{
+    text-transform: uppercase;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 200px;
+    letter-spacing: 5px;
+}
+.high{
+    letter-spacing: 5px;
+    color: white;
+    text-align: center;
+    width: 60%;
+    padding-top: 40px;
+    margin-left: 250px;
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+.watch{
+    display: inline-block;
+    border: solid 1px white;
+    color: rgba(7, 6, 6, 0.582);
+    background-color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 220px;
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-size: 18px;
+    margin-left: 530px;
+    margin-top: 40px;   
+}
+/* beshinchi sahifa */
+.besh{
+    background-color: #F4F1EC;
+    width: 100%;
+    height: 615px;
+    padding-left: 50px;
+}
+.move{
+    display: inline-block;
+    width: 49%;
+    height: 60%;
+    /* background-color: aquamarine; */
+    margin-left: 80px;
+}
+.book{
+    display: inline-block;
+    width: 49%;
+    height: 80%;
+}
+.from{
+    color: #453F35;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 500px;
+    letter-spacing: 3px;
+}.know{
+    color: #453F35;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 35px;
+    font-weight: 700px;
+    margin-top: 35px;
+    font-size: 15px;
+}
+.book{
+    background-image: url("./img/book.jpeg");
+    width: 25%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 127, 170);
+    background-size: 100% 350px;
+    /* margin-left: 150px; */
+    margin-top: 150px;
+    text-align: center;
+    border: solid 5px white;
+    border-radius: 25px;
+}
+/* oltinchi sahifa */
+.olti{
+    background-color: #F8F6F1;
+    width: 100%;
+    height: 615px;
+}
+.client{
+    color: #453F35;
+    font-family: monospace;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 70px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.boost{
+    width: 100%;
+    height: 50%;
+    /* background-color: aqua; */
+    padding-left: 250px;
+}
+.boost1{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    line-height: 25px;
+    position: relative;
+    bottom: 100px;
+    color: #453F35;
+    margin-right: 80px;
+    
+}
+.boost2{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    line-height: 25px;
+    margin-right: 80px;
+    color: #453F35;
+}
+.boost3{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    line-height: 25px;
+    position: relative;
+    color: #453F35;
+    bottom: 175px;
+}
+
+/* yettinchi */
+.yetti{
+    background-color: #453F35;
+    width: 100%;
+    height: 615px;   
+}
+.buy{
+    width: 50%;
+    display: inline-block;
+    height: 100%;
+    /* background-color: #F8F6F1; */
+}
+.img{
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./img/billiart.jfif");    
+    background-size: cover;
+    margin-left: 8px;
+}
+
+.first i{
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 70px;
+    color: rgba(117, 110, 110, 0.664);
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-top: 6px;
+    padding-left: 5px;   
+}
+.second{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.button1{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border: solid 1px white;
+    padding-left: 10px;
+    width: 200px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.button2{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #453F35;
+    background-color: white;
+    padding-left: 10px;
+    margin-left: 20px;
+    width: 100px;
+    width: 200px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.thirt{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 70px;
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+.for{
+    margin-left: 70px;
+    margin-top: 50px;
+    color: white;
+    line-height: 25px;
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+.five{
+    margin-left: 60px;
+    margin-top: 58px;
+    color: white;
+    position: relative; 
+    bottom: 30px;
+   
+}
+.five i{
+    width: 40px;
+    height: 40px;
+    border: solid 2px white;
+    border-radius: 50px; 
+    text-align: center;  
+    margin-left: 15px;
+}
